@@ -1,0 +1,43 @@
+.sort-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .sort-icon {
+        i {
+            cursor: pointer;
+            background: rgb(201, 218, 151);
+            border-radius: 3px;
+            padding: 0 3px;
+
+            &:first-child {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+.add-new {
+    // display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .group-btn {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.custom-table {
+    width: inherit;
+    overflow-x: auto;
+}
+
+input {
+    box-shadow: none !important;
+}
