@@ -25,7 +25,7 @@ const Home = () => {
                     <br />
                     <li> Freely customize html, css, to have a light, scientific and beautiful website.</li>
                     <li>Commit and push source code to github public.</li>
-                    <li>Deploy website to Heroku for demo.</li>
+                    <li>Make demo website.</li>
                 </ul>
             </div>
         </>
